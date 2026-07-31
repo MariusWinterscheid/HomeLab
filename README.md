@@ -11,7 +11,7 @@ Welcome to my HomeLab repository! Here you will find the documentation, configur
 | Device | Model/Specs | RAM | Storage | Services |
 | :--- | :--- | :--- | :--- | :--- | 
 | **Server nautilus** | TERRA_PC / Intel Celeron N3050 | 4 GB | 256 GB SSD | Nextcloud, Nginx |
-| **Server moby-dick** | ThinkPad 4291S7Y / Intel i5-2520M | 4 GB | 256 GB SSD | Homeassistant, Plex, n8n, Open Thread Boarder Router, Matter Server |
+| **Server moby-dick** | ThinkPad 4291S7Y / Intel i5-2520M | 4 GB | 256 GB SSD | Homeassistant, Plex, n8n, Open Thread Boarder Router, Matter Server, Kiwix |
 | **NAS Datenkrake** | QNAP TS-212P | 512 MB | 8 TB HDD in RAID 1 | Data Storage |
 
 ---
@@ -35,6 +35,7 @@ Here is a list of the main services running in my HomeLab (mostly via Docker)
 ### Media & Productivity
 - **[Nextcloud](https://nextcloud.com/)** - Personal Cloud Storage & Sync
 - **[Plex](https://www.plex.tv/)** - Media Server
+- **[Kiwix](https://kiwix.org)** - Offline Knowledge
 
 ### Smart Home & Monitoring
 - **[Home Assistant](https://www.home-assistant.io/)** - Smart Home Automation
