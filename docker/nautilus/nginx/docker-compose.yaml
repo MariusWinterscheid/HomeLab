@@ -5,7 +5,7 @@ services:
     restart: unless-stopped
     network_mode: host
     environment:
-      - DISABLE_IPV6=false # Setze dies auf true, falls dein Host kein IPv6 unterstützt
+      - DISABLE_IPV6=false # Set to true if your host does not support IPv6
     volumes:
       - ./npm/data:/data
       - ./npm/letsencrypt:/etc/letsencrypt
