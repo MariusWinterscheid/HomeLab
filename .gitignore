@@ -1,0 +1,22 @@
+# =========================
+# Docker Environment Files
+# =========================
+.env
+*.env
+
+# =========================
+# Service Data & Volumes
+# =========================
+# Nginx Proxy Manager Zertifikate und Datenbank
+**/npm/data/
+**/npm/letsencrypt/
+npm/
+
+# =========================
+# Backups
+# =========================
+*.tar
+*.tar.gz
+*.zip
+*.sql
+*.bak
